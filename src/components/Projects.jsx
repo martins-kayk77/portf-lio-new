@@ -64,7 +64,7 @@ function Projects() {
                 {project.title}
               </h3>
 
-              <div className="relative mb-6 h-40 max-h-40 overflow-hidden rounded-lg">
+              <div className="relative mb-6 h-56 overflow-hidden rounded-lg sm:h-48 lg:h-40">
                 <div className="absolute inset-0 overflow-hidden space-y-4 transition-opacity duration-300 group-hover:opacity-0 group-focus-within:opacity-0">
                   <p className="text-muted-foreground leading-relaxed">
                     {project.description}
