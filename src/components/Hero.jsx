@@ -23,7 +23,7 @@ function Hero() {
             </h2>
             <p className="text-muted-foreground max-w-lg mx-auto lg:mx-0 mb-8 leading-relaxed">
               Técnico em Desenvolvimento de Sistemas, estudante de ADS e atualmente
-              trabalando como assistente de suporte de TI.
+              trabalho como assistente de suporte em TI.
             </p>
 
             <div className="flex flex-wrap gap-3 justify-center lg:justify-start mb-8">
