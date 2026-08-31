@@ -9,7 +9,7 @@ const contactLinks = [
   {
     icon: FileText,
     label: 'Currículo',
-    href: 'public/curriculoKaike.pdf',
+    href: '/curriculoKaike.pdf',
   },
   {
     icon: Linkedin,
