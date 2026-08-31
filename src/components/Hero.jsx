@@ -1,6 +1,12 @@
 import { Github, Linkedin, Mail, ChevronDown } from 'lucide-react'
+import { useTheme } from '../context/ThemeContext'
 
 function Hero() {
+  const { theme } = useTheme()
+  const isLightTheme = theme === 'light'
+  const profileImage = isLightTheme ? '/project-previews/KaikeLigth.png' : '/Kaike.png'
+  const profileImagePosition = isLightTheme ? 'object-[center_18%]' : 'object-[center_25%]'
+
   return (
     <section className="min-h-screen flex items-center justify-center pt-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       {/* Background decoration */}
@@ -81,9 +87,9 @@ function Hero() {
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-2xl scale-110" />
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden ring-4 ring-primary/50 shadow-2xl">
                 <img
-                  src="/Kaike.png"
+                  src={profileImage}
                   alt="Kaike Martins"
-                  className="w-full h-full object-cover object-[center_25%]"
+                  className={`w-full h-full object-cover transition-all duration-300 ${profileImagePosition}`}
                 />
               </div>
             </div>
