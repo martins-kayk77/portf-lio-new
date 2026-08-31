@@ -4,12 +4,12 @@ const skillCategories = [
   {
     title: 'Front-end',
     icon: Code,
-    skills: ['HTML', 'CSS', 'JavaScript', 'React'],
+    skills: [ 'React', 'Flutter','JavaScript', 'HTML', 'CSS'],
   },
   {
     title: 'Back-end',
     icon: Server,
-    skills: ['Node.js'],
+    skills: ['Node.js', 'Firebase Authentication'],
   },
   {
     title: 'Banco de Dados',

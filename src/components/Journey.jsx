@@ -31,7 +31,7 @@ const journeyItems = [
     year: '2026',
     title: 'Efetivado',
     description:
-      'Após o término do contrato de aprendizagem, fui efetivado na mesma empresa.',
+      'Após o término do contrato de aprendizagem, fui efetivado na mesma empresa, iniciando uma nova fase profissional no almoxarifado.',
     side: 'left',
   },
   {
@@ -40,6 +40,13 @@ const journeyItems = [
     description:
       'Em março de 2026, iniciei a graduação em Análise e Desenvolvimento de Sistemas.',
     side: 'right',
+  },
+  {
+    year: '2026',
+    title: 'Promoção para TI',
+    description:
+      'Recebi uma promoção interna e migrei do almoxarifado para a área de TI, passando a aplicar meus estudos em tecnologia na rotina profissional.',
+    side: 'left',
   },
 ]
 

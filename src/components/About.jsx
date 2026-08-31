@@ -15,14 +15,15 @@ function About() {
 
         <div className="space-y-6 text-muted-foreground leading-relaxed">
           <p>
-            Meu nome é Kaike, tenho 20 anos e moro na zona sul de São Paulo. Sou
+            Meu nome é Kaike, tenho 21 anos e moro na zona sul de São Paulo. Sou
             Técnico em Desenvolvimento de Sistemas pela ETEC e estudante de Análise
             e Desenvolvimento de Sistemas na UniFECAF.
           </p>
           <p>
-            Estou em busca de oportunidades de trabalho em desenvolvimento de
-            software, onde possa aplicar os conhecimentos técnicos, evoluir
-            profissionalmente e contribuir com soluções eficientes.
+            Atualmente atuo na área de TI, após uma promoção interna em que migrei
+            do almoxarifado para TI. Essa transição aproximou minha rotina
+            profissional dos estudos em sistemas e fortaleceu meu interesse por
+            desenvolvimento de software.
           </p>
           <p>
             Tenho experiência com React, JavaScript e Node.js, desenvolvendo

@@ -19,11 +19,11 @@ function Hero() {
               <span className="text-primary">Kaike</span> Martins
             </h1>
             <h2 className="text-xl sm:text-2xl text-muted-foreground mb-6">
-              Desenvolvedor Web
+              Desenvolvedor e Assistente de Suporte Técnico 
             </h2>
             <p className="text-muted-foreground max-w-lg mx-auto lg:mx-0 mb-8 leading-relaxed">
-              Técnico em Desenvolvimento de Sistemas e estudante de ADS, com foco em
-              desenvolvimento web.
+              Técnico em Desenvolvimento de Sistemas, estudante de ADS e atualmente
+              trabalando como assistente de suporte de TI.
             </p>
 
             <div className="flex flex-wrap gap-3 justify-center lg:justify-start mb-8">
